@@ -25,7 +25,7 @@ export default function Nav() {
             <Link href="/project">
             <li><i className="fa"></i>Project</li>
             </Link>
-            <Link href="/about">
+            <Link href="/aboutMe">
             <li><i className="fa"></i>About Me</li>
             </Link>
             <Link href="/resume">
@@ -33,7 +33,7 @@ export default function Nav() {
             </Link>
    
     </div>
-    <buthrefn className="openbtn" onClick={openNav}>
+    <buthrefn className={styles.openbtn} onClick={openNav}>
     <i className='fa'>☰</i></buthrefn>  
 
     </div>

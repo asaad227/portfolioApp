@@ -36,8 +36,7 @@ export default function AboutMe() {
       <Nav />
       <div className={styles.sociallinks}>
         <Link href="https://www.linkedin.com/in/ahammed-saad-5341b3231/">
-          {" "}
-          <i className="fa fa-linkedin"></i>
+       
         </Link>
         <Link href="https://github.com/asaad227">
           {" "}

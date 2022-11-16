@@ -5,6 +5,7 @@ import logo from "../src/assets/Images/ahammedSaad.png";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 
+
 function Main() {
   return (
     <div>
@@ -47,7 +48,7 @@ function Main() {
               <i className={styles.fa}></i>Project
             </li>
           </Link>
-          <Link href="/about">
+          <Link href="/aboutMe">
             <li>
               <i className={styles.fa}></i>About Me
             </li>
