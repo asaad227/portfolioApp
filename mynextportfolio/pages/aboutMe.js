@@ -65,7 +65,7 @@ export default function AboutMe() {
         skill-set. Proficient in various platform, and language. Knowledge with
         cutting-edge development tool and procedure. Able to effectively
         self-manage during independent project, as well as collaborate as part
-        of a team.
+        of a team. 
       </p>
       <h4>Hobbies ____________________</h4>
       <p className={styles.typeprofile}>

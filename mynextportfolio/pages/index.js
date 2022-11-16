@@ -16,7 +16,7 @@ function Main() {
         <TypeAnimation
           className={styles.type}
           cursor={false}
-          sequence={["Hi! I'm Ahammed Saad. ", 3000]}
+          sequence={["I'm Ahammed Saad. ", 3000]}
         />
         <TypeAnimation
         className={styles.type}
