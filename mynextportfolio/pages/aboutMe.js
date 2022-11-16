@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/Image";
 import pic from "../src/assets/Images/ahammedSaad_profile_pic.jpeg";
-import styles from "../styles/AboutMe.module.css";
+import styles from "../styles/AboutMe.module.css"
 import Auth0 from "../src/assets/Icons/auth0.png";
 import Typescript from "../src/assets/Icons/Typescript_logo_2020.svg.png";
 import ReactTesting from "../src/assets/Icons/react testing library.png";
@@ -36,23 +36,23 @@ export default function AboutMe() {
       <Nav />
       <div className={styles.sociallinks}>
         <Link href="https://www.linkedin.com/in/ahammed-saad-5341b3231/">
-       
+       Linkedin
         </Link>
         <Link href="https://github.com/asaad227">
-          {" "}
-          <i className="fa fa-github"></i>
+      Github
+
         </Link>
         <Link href="https://twitter.com/a_saad227">
-          {" "}
-          <i className="fa fa-twitter"></i>
+       twitter
+ 
         </Link>
         <Link href="mailto:a.saad227@gmail.com? subject=subject text">
-          {" "}
-          <i className="fa fa-google"></i>
+       Gmail
+       
         </Link>
         <Link href="mailto:a.saad227@yahoo.com? subject=subject text">
-          {" "}
-          <i className="fa fa-yahoo"></i>
+      Yahoo mail
+          
         </Link>
       </div>
       <div className={styles.about}>
@@ -105,9 +105,9 @@ export default function AboutMe() {
           />
     
      
-      <Link className={styles.gitstate}
+      <Image className={styles.gitstate}
         href="https://github-readme-stats.vercel.app/api?username=asaad227&show_icons=true&hide_border=false&title_color=ff652f&icon_color=FFE400&bg_color=09131B&text_color=ffffff&border_color=0c1a25"
-       >Git State</Link>
+       />
 
       <h4>Tech Stack ____________________ </h4>
 

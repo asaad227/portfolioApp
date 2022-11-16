@@ -20,16 +20,16 @@ export default function Nav() {
 <i className="fa fa-caret">X</i></Link>
        
         <Link href="/">
-            <li><i className="fa fa-home"></i>Home</li>
+            <li className={styles.linklist}>Home</li>
             </Link>
             <Link href="/project">
-            <li><i className="fa"></i>Project</li>
+            <li className={styles.linklist}>Project</li>
             </Link>
-            <Link href="/aboutMe">
-            <li><i className="fa"></i>About Me</li>
+            <Link  href="/aboutMe">
+            <li className={styles.linklist}>About Me</li>
             </Link>
             <Link href="/resume">
-            <li><i className="fa"></i>Resume</li>
+            <li className={styles.linklist}>Resume</li>
             </Link>
    
     </div>

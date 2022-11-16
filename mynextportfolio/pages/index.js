@@ -19,6 +19,7 @@ function Main() {
           sequence={["Hi! I'm Ahammed Saad. ", 3000]}
         />
         <TypeAnimation
+        className={styles.type}
           cursor={false}
           sequence={["WelCome to My Portfolio", 2000]}
         />
@@ -43,40 +44,40 @@ function Main() {
         />
 
         <div className={styles.navhome}>
-          <Link href="/project">
-            <li>
-              <i className={styles.fa}></i>Project
+          <Link className={styles.linklink} href="/project">
+            <li className={styles.linklist}>
+              Project
             </li>
           </Link>
-          <Link href="/aboutMe">
-            <li>
-              <i className={styles.fa}></i>About Me
+          <Link  className={styles.linklink} href="/aboutMe">
+            <li className={styles.linklist}>
+             About Me
             </li>
           </Link>
-          <Link href="/resume">
-            <li>
-              <i className={styles.fa}></i>Resume
+          <Link className={styles.linklink} href="/resume">
+            <li className={styles.linklist}>
+              Resume
             </li>
           </Link>
         </div>
         <div className={styles.sociallinks}>
-          <Link href="https://www.linkedin.com/in/ahammed-saad-5341b3231/">
+          <Link className={styles.linklink} href="https://www.linkedin.com/in/ahammed-saad-5341b3231/">
       
            linkedin
           </Link>
-          <Link href="https://github.com/asaad227">
+          <Link className={styles.linklink} href="https://github.com/asaad227">
        
           github
           </Link>
-          <Link href="https://twitter.com/a_saad227">
+          <Link className={styles.linklink} href="https://twitter.com/a_saad227">
        
            twitter
           </Link>
-          <Link href="mailhref:a.saad227@gmail.com? subject=subject text">
+          <Link className={styles.linklink} href="mailhref:a.saad227@gmail.com? subject=subject text">
        
            Gmail
           </Link>
-          <Link href="mailhref:a.saad227@yahoo.com? subject=subject text">
+          <Link className={styles.linklink} href="mailhref:a.saad227@yahoo.com? subject=subject text">
     
           Yahoo mail
           </Link>

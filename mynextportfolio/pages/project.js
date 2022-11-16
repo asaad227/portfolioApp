@@ -44,7 +44,7 @@ export default function Project() {
       <div className={styles.flexcontainer}>
         <div className={styles.flexbox}>
           <Link href="https://simple-app2.netlify.app/">
-            <i className="fa"></i>Simple App
+           Simple App
           </Link>
           <p>Full stack react app with CRUD functionality. 
           Frontend react.js and backend using PostgreSQL. 
@@ -53,7 +53,7 @@ export default function Project() {
         </div>
         <div className={styles.flexbox}>
           <Link href="https://pokemon-q.vercel.app/">
-            <i className="fa"></i>Pokemon-Q
+            Pokemon-Q
           </Link>
           <p>Fetch Api and JavaScript DOM manipulation to dynamically 
           access and update the content, structure and style of the document.</p>
@@ -61,28 +61,28 @@ export default function Project() {
         </div>
         <div className={styles.flexbox}>
           <Link href="https://e-commerce-site-delta.vercel.app/">
-            <i className="fa"></i>E-commerce-site
+           E-commerce-site
           </Link>
           <p>E-commerce recat app with localstorage for persistent data</p>
           <Image className={styles.imageDesign} src={ECommerce} alt="E-commerce" loading="lazy" />
         </div>
         <div className={styles.flexbox}>
           <Link href="https://e-commerce-site-delta.vercel.app/">
-            <i className="fa"></i>E-commerce-responsive
+         E-commerce-responsive
           </Link>
           <p>Responsive react e-commerce site with localstorage for persistent data</p>
           <Image className={styles.imageDesign} src={EcommerceResponsive} alt="E-commerce-responsive" loading="lazy" />
         </div>
         <div className={styles.flexbox}>
           <Link href="https://asian-recipe.vercel.app/">
-            <i className="fa"></i>Asian-recipe
+          Asian-recipe
           </Link>
           <p>Asian recipe App using react app</p>
           <Image className={styles.imageDesign} src={AsianRecipe} alt="Asian-recipe" loading="lazy" />
         </div>
         <div className={styles.flexbox}>
           <Link href="https://asian-recipe.vercel.app/">
-            <i className="fa"></i>Asian-recipe-responsive
+          Asian-recipe-responsive
           </Link>
           <p>Asian recipe App using react app</p>
           <Image className={styles.imageDesign} src={AsianRecipeResponsive} alt="Asian-recipe-responsive" loading="lazy" />
@@ -90,7 +90,7 @@ export default function Project() {
        
         <div className={styles.flexbox}>
           <Link href="https://bootcampers-social.netlify.app/">
-            <i className="fa"></i> Bootcampers Social App
+             Bootcampers Social App
           </Link>
           <p>Full Stack React App with CRUD functionality.</p>
           <Image className={styles.imageDesign} src={Bootcampers1} alt="Bootcampers Social App" loading="lazy" />

@@ -2,19 +2,6 @@
 
 
 
-/* .home {
-  display: flex;
-  position: fixed;
-  flex-wrap: wrap;
-  padding: 50px;
-  color: bisque;
-} */
-
-/* .nav-bar {
-  display: flex;
-  float: right;
-} */
-
 .profilecontainer {
   display: flex;
   flex-direction: column;
@@ -69,6 +56,7 @@
 
 .type {
   display: flex;
+  padding-top: 20px;
   margin-left: 25%;
   margin-right: 25%;
   color: gold;
@@ -78,5 +66,14 @@
 .type:hover {
   color: white;
   transition: 1s ease-out;
+}
+
+.linklist{
+  list-style: none;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.linklink{
+  text-decoration: none;
 }
 

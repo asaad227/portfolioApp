@@ -28,7 +28,7 @@ color: gold;
 /* padding: 20px; */
 }
 .typeprofile:hover{
-  color: white;
+  color: rgb(251, 220, 220);
   transition: 1s ease-out;
 }
 
