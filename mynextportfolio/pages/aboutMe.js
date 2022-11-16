@@ -106,9 +106,9 @@ export default function AboutMe() {
           />
     
      
-      <Image className={styles.gitstate}
+      <Link className={styles.gitstate}
         href="https://github-readme-stats.vercel.app/api?username=asaad227&show_icons=true&hide_border=false&title_color=ff652f&icon_color=FFE400&bg_color=09131B&text_color=ffffff&border_color=0c1a25"
-       />
+       >GitStats</Link>
 
       <h4>Tech Stack ____________________ </h4>
 
