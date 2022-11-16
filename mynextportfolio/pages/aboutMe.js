@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/Image";
+import Image from "next/image";
 import pic from "../src/assets/Images/ahammedSaad_profile_pic.jpeg";
 import styles from "../styles/AboutMe.module.css"
 import Auth0 from "../src/assets/Icons/auth0.png";

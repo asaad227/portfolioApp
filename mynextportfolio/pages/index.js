@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/Image";
+import Image from "next/image";
 import styles from "../styles/Home.module.css"
 import logo from "../src/assets/Images/ahammedSaad.png";
 import { TypeAnimation } from "react-type-animation";
