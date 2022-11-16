@@ -1,0 +1,64 @@
+.project {
+  flex-wrap: wrap;
+}
+
+/* .project-nav {
+  justify-content: space-between;
+} */
+
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  color: #f1f1f1;
+  padding: 25px;
+}
+
+.flexbox {
+  display: flex;
+  background-image: url("../src/assets/Gif/smokey_background.gif");
+  width: 500px;
+  height: auto;
+  margin: 2px;
+  flex-direction: column;
+  border: 2px solid gold;
+  border-radius: 5px;
+}
+
+.socialsite {
+  text-transform: uppercase;
+  color: #f1f1f1;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  position: relative;
+}
+
+.socialsite:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: gold;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.socialsite:hover:after {
+  width: 100%;
+  left: 0;
+}
+.socialsite:hover {
+  color: gold;
+}
+
+@media screen and (max-width: 700px) {
+  
+  .flexbox{
+    width: 300px;
+    height: auto;
+  }
+}

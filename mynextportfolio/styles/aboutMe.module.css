@@ -1,0 +1,35 @@
+
+.about{
+padding: 40px 20% 0 20%;
+  text-align: justify;
+  
+}
+
+.typeprofile{
+color: gold;
+/* padding: 20px; */
+}
+.typeprofile:hover{
+  color: white;
+  transition: 1s ease-out;
+}
+
+.gitstate{
+  width: 500px;
+}
+.imageicons {
+  width: 26px;
+  height: 26px;
+  padding-right: 10px;
+  
+}
+
+@media screen and (max-width: 700px) {
+ .about {
+  padding: 20px 12% 0 12%;
+  }
+.gitstate{
+  width: 200px;
+}
+}
+

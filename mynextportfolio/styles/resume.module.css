@@ -1,0 +1,19 @@
+.top-resume{
+    flex-wrap: wrap;
+}
+
+.resume{
+ align-items: center;
+    width: 600px;
+    height: auto;
+}
+
+@media  screen and (max-width:700px) {
+
+    .resume{
+        width: 300px;
+        height: auto;
+        padding: 20px;
+    }
+    
+}

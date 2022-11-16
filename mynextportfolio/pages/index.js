@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -32,10 +32,24 @@ export default function Home() {
             <h2>Random password APP</h2>
             <p>This app generate random password which you can use where ever you like to use.</p>
           </Link>
+          <Link
+            href="/aboutMe"
+            className={styles.cards}
+          >
+            <h2>About Me</h2>
+            <p>Its all about me</p>
+          </Link>
+          <Link
+            href="/main"
+            className={styles.cards}
+          >
+            <h2>Home</h2>
+            <p>Its all about me</p>
+          </Link>
 
           <Link
             href="https://github-readme-stats.vercel.app/api?username=asaad227&show_icons=true&hide_border=false&title_color=ff652f&icon_color=FFE400&bg_color=09131B&text_color=ffffff&border_color=0c1a25"
-            className={styles.card}
+            className={styles.cards}
           >
             <h2>GitHub Stats</h2>
             <p>My gitHub activities Stats.</p>
@@ -45,18 +59,7 @@ export default function Home() {
         </div>
       </main>
 
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
+  
     </div>
   )
 }
