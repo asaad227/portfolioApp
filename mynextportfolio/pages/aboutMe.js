@@ -36,22 +36,23 @@ export default function AboutMe() {
       <Nav />
       <div className={styles.sociallinks}>
         <Link href="https://www.linkedin.com/in/ahammed-saad-5341b3231/">
-       Linkedin
+        <i className="fa fa-linkedin"> </i>
         </Link>
         <Link href="https://github.com/asaad227">
-      Github
+        <i className="fa fa-github"> </i>
+ 
 
         </Link>
         <Link href="https://twitter.com/a_saad227">
-       twitter
+        <i className="fa fa-twitter"> </i>
  
         </Link>
         <Link href="mailto:a.saad227@gmail.com? subject=subject text">
-       Gmail
+        <i className="fa fa-google"> </i>
        
         </Link>
         <Link href="mailto:a.saad227@yahoo.com? subject=subject text">
-      Yahoo mail
+        <i className="fa fa-yahoo"> </i>
           
         </Link>
       </div>

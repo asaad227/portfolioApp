@@ -61,27 +61,27 @@ function Main() {
           </Link>
         </div>
         <div className={styles.sociallinks}>
-          <Link className={styles.linklink} href="https://www.linkedin.com/in/ahammed-saad-5341b3231/">
-      
-           linkedin
-          </Link>
-          <Link className={styles.linklink} href="https://github.com/asaad227">
+        <Link href="https://www.linkedin.com/in/ahammed-saad-5341b3231/">
+        <i className="fa fa-linkedin"> </i>
+        </Link>
+        <Link href="https://github.com/asaad227">
+        <i className="fa fa-github"> </i>
+ 
+
+        </Link>
+        <Link href="https://twitter.com/a_saad227">
+        <i className="fa fa-twitter"> </i>
+ 
+        </Link>
+        <Link href="mailto:a.saad227@gmail.com? subject=subject text">
+        <i className="fa fa-google"> </i>
        
-          github
-          </Link>
-          <Link className={styles.linklink} href="https://twitter.com/a_saad227">
-       
-           twitter
-          </Link>
-          <Link className={styles.linklink} href="mailhref:a.saad227@gmail.com? subject=subject text">
-       
-           Gmail
-          </Link>
-          <Link className={styles.linklink} href="mailhref:a.saad227@yahoo.com? subject=subject text">
-    
-          Yahoo mail
-          </Link>
-        </div>
+        </Link>
+        <Link href="mailto:a.saad227@yahoo.com? subject=subject text">
+        <i className="fa fa-yahoo"> </i>
+          
+        </Link>
+      </div>
       </div>
     </div>
   );
