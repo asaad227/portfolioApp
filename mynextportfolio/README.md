@@ -1,4 +1,7 @@
 ## WIP- Next app 
+- Object
+- React project convert to Next.js  
+
 ## Getting Started
 
 First, run the development server:
