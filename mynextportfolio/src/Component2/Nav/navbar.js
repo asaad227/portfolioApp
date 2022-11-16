@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../../../styles/nav.module.css"
+import styles from "../../../styles/Navbar.module.css"
 import Link from 'next/link';
 
 
@@ -20,7 +20,7 @@ export default function Nav() {
 <i className="fa fa-caret">X</i></Link>
        
         <Link href="/">
-            <li><i className="fa fa-home"></i></li>
+            <li><i className="fa fa-home"></i>Home</li>
             </Link>
             <Link href="/project">
             <li><i className="fa"></i>Project</li>

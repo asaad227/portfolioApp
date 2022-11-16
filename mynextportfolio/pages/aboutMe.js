@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/Image";
 import pic from "../src/assets/Images/ahammedSaad_profile_pic.jpeg";
-import styles from "../styles/aboutMe.module.css";
+import styles from "../styles/AboutMe.module.css";
 import Auth0 from "../src/assets/Icons/auth0.png";
 import Typescript from "../src/assets/Icons/Typescript_logo_2020.svg.png";
 import ReactTesting from "../src/assets/Icons/react testing library.png";
@@ -30,7 +30,7 @@ import Nav from "../src/Component2/Nav/navbar";
 import Link from "next/link";
 
 
-export default function About() {
+export default function AboutMe() {
   return (
     <div >
       <Nav />
@@ -56,10 +56,10 @@ export default function About() {
           <i className="fa fa-yahoo"></i>
         </Link>
       </div>
-      <div className="about">
-      <img className="card" src={pic} alt="Ahammed Saad" />
+      <div className={styles.about}>
+      <Image className={styles.card} src={pic} alt="Ahammed Saad" />
       <TypeAnimation cursor={false} sequence={["Ahammed Saad", 2000]} wrapper='h2' />
-      <p className="type-profile">
+      <p className={styles.typeprofile}>
         Software Engineer with experience in full stack development, testing and
         maintenance of software system. Equipped with a diverse and promising
         skill-set. Proficient in various platform, and language. Knowledge with
@@ -68,7 +68,7 @@ export default function About() {
         of a team.
       </p>
       <h4>Hobbies ____________________</h4>
-      <p className="type-profile">
+      <p className={styles.typeprofile}>
         Travelling, exploring different cuisine and also like football and
         cricket.
       </p>
@@ -76,7 +76,7 @@ export default function About() {
       <h4>
         Skills ____________________ </h4>
           <TypeAnimation
-            className="type-profile"
+            className={styles.typeprofile}
             sequence={[
               "Frontend Development",
               2000,
@@ -106,42 +106,41 @@ export default function About() {
           />
     
      
-      <img className="git-state"
-        src="https://github-readme-stats.vercel.app/api?username=asaad227&show_icons=true&hide_border=false&title_color=ff652f&icon_color=FFE400&bg_color=09131B&text_color=ffffff&border_color=0c1a25"
-        alt="gitHub-Stat"
-      loading="lazy"/>
+      <Link className={styles.gitstate}
+        href="https://github-readme-stats.vercel.app/api?username=asaad227&show_icons=true&hide_border=false&title_color=ff652f&icon_color=FFE400&bg_color=09131B&text_color=ffffff&border_color=0c1a25"
+       >Git State</Link>
 
       <h4>Tech Stack ____________________ </h4>
 
-      <img className="image-icons" src={Js} alt="Js" />
-      <img className="image-icons" src={item} alt="React" />
-      <img className="image-icons" src={Typescript} alt="Typescript" />
-      <img
-        className="image-icons"
+      <Image className={styles.imageicons} src={Js} alt="Js" />
+      <Image className={styles.imageicons} src={item} alt="React" />
+      <Image className={styles.imageicons} src={Typescript} alt="Typescript" />
+      <Image
+        className={styles.imageicons}
         style={{ background: "white" }}
         src={Next}
         alt="Next"
       />
 
-      <img className="image-icons" src={Java} alt="Java" loading="lazy" />
-      <img className="image-icons" src={Python} alt="Python" loading="lazy"/>
-      <img className="image-icons" src={nodejs} alt="nodejs" loading="lazy" />
-      <img className="image-icons" src={npmOriginal} alt="npm-original" loading="lazy" />
-      <img className="image-icons" src={html5Original} alt="html5" loading="lazy"/>
-      <img className="image-icons" src={css3Original} alt="css3" loading="lazy"/>
-      <img className="image-icons" src={figma} alt="Figma" loading="lazy"/>
-      <img className="image-icons" src={Chart} alt="Chart.js" loading="lazy"/>
-      <img className="image-icons" src={Heroku} alt="Heroku" loading="lazy"/>
-      <img className="image-icons" src={postGreSql} alt="postgresSql" loading="lazy"/>
-      <img className="image-icons" src={Postman} alt="Postman" loading="lazy"/>
-      <img className="image-icons" src={Auth0} alt="Auth0" loading="lazy"/>
-      <img className="image-icons" src={Enzyme} alt="Enzyme" loading="lazy"/>
-      <img className="image-icons" src={jestPlain} alt="jest" loading="lazy"/>
-      <img className="image-icons" src={ReactTesting} alt="jest" loading="lazy"/>
-      <img className="image-icons" src={Cpress} alt="Cypress" loading="lazy"/>
-      <img className="image-icons" src={Trello} alt="Trello" loading="lazy"/>
-      <img className="image-icons" src={Slack} alt="Slack" loading="lazy"/>
-      <img className="image-icons" src={vsCode} alt="vscode" loading="lazy"/>
+      <Image className={styles.imageicons} src={Java} alt="Java" loading="lazy" />
+      <Image className={styles.imageicons} src={Python} alt="Python" loading="lazy"/>
+      <Image className={styles.imageicons} src={nodejs} alt="nodejs" loading="lazy" />
+      <Image className={styles.imageicons} src={npmOriginal} alt="npm-original" loading="lazy" />
+      <Image className={styles.imageicons} src={html5Original} alt="html5" loading="lazy"/>
+      <Image className={styles.imageicons} src={css3Original} alt="css3" loading="lazy"/>
+      <Image className={styles.imageicons} src={figma} alt="Figma" loading="lazy"/>
+      <Image className={styles.imageicons} src={Chart} alt="Chart.js" loading="lazy"/>
+      <Image className={styles.imageicons} src={Heroku} alt="Heroku" loading="lazy"/>
+      <Image className={styles.imageicons} src={postGreSql} alt="postgresSql" loading="lazy"/>
+      <Image className={styles.imageicons} src={Postman} alt="Postman" loading="lazy"/>
+      <Image className={styles.imageicons} src={Auth0} alt="Auth0" loading="lazy"/>
+      <Image className={styles.imageicons} src={Enzyme} alt="Enzyme" loading="lazy"/>
+      <Image className={styles.imageicons} src={jestPlain} alt="jest" loading="lazy"/>
+      <Image className={styles.imageicons} src={ReactTesting} alt="jest" loading="lazy"/>
+      <Image className={styles.imageicons} src={Cpress} alt="Cypress" loading="lazy"/>
+      <Image className={styles.imageicons} src={Trello} alt="Trello" loading="lazy"/>
+      <Image className={styles.imageicons} src={Slack} alt="Slack" loading="lazy"/>
+      <Image className={styles.imageicons} src={vsCode} alt="vscode" loading="lazy"/>
     </div>
     </div>
   );

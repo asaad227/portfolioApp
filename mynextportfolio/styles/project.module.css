@@ -25,7 +25,12 @@
   border: 2px solid gold;
   border-radius: 5px;
 }
-
+.imageDesign{
+  display: flex;
+  width: 495px;
+  height: 350px;
+ 
+}
 .socialsite {
   text-transform: uppercase;
   color: #f1f1f1;
@@ -60,5 +65,12 @@
   .flexbox{
     width: 300px;
     height: auto;
+  }
+
+  .imageDesign{
+    display: flex;
+    width: 295px;
+    height: 150px;
+   
   }
 }
