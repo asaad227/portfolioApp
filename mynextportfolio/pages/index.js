@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "/styles/home.module.css"
-import logo from "../src/assets/Images/ahammedSaad.png";
+import logo from "../src/assets/Images/ahammedSaad_profile_pic.jpeg";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 

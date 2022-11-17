@@ -58,7 +58,7 @@ export default function AboutMe() {
       </div>
       <div className={styles.about}>
       <Image className={styles.card} src={pic} alt="Ahammed Saad" />
-      <TypeAnimation cursor={false} sequence={["Ahammed Saad", 2000]} wrapper='h2' />
+      <TypeAnimation className={styles.type} cursor={false} sequence={["Ahammed Saad", 2000]} wrapper='h2' />
       <p className={styles.typeprofile}>
         Software Engineer with experience in full stack development, testing and
         maintenance of software system. Equipped with a diverse and promising
@@ -67,13 +67,13 @@ export default function AboutMe() {
         self-manage during independent project, as well as collaborate as part
         of a team. 
       </p>
-      <h4>Hobbies ____________________</h4>
+      <h4 className={styles.type}>Hobbies ____________________</h4>
       <p className={styles.typeprofile}>
         Travelling, exploring different cuisine and also like football and
         cricket.
       </p>
 
-      <h4>
+      <h4 className={styles.type}>
         Skills ____________________ </h4>
           <TypeAnimation
             className={styles.typeprofile}
@@ -110,7 +110,7 @@ export default function AboutMe() {
         href="https://github-readme-stats.vercel.app/api?username=asaad227&show_icons=true&hide_border=false&title_color=ff652f&icon_color=FFE400&bg_color=09131B&text_color=ffffff&border_color=0c1a25"
        >GitStats</Link>
 
-      <h4>Tech Stack ____________________ </h4>
+      <h4 className={styles.type}>Tech Stack ____________________ </h4>
 
       <Image className={styles.imageicons} src={Js} alt="Js" />
       <Image className={styles.imageicons} src={item} alt="React" />

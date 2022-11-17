@@ -44,10 +44,18 @@ color: gold;
   width: 500px;
 }
 .imageicons {
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 25px;
   padding-right: 10px;
   
+}
+
+.type {
+  display: flex;
+  padding-top: 20px;
+
+  color: gold;
+  transition: 1s ease-out;
 }
 
 @media screen and (max-width: 700px) {

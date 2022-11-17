@@ -17,20 +17,26 @@
 
 .flexbox {
   display: flex;
+  flex-wrap: wrap;
   background-image: url("../src/assets/Gif/smokey_background.gif");
   width: 500px;
   height: auto;
-  margin: 2px;
+  margin-top: 20px;
+  margin-left: 100px;
   flex-direction: column;
   border: 2px solid gold;
   border-radius: 5px;
+  align-items: center;
 }
 .imageDesign{
   display: flex;
-  width: 495px;
-  height: 350px;
- 
 }
+.title{
+  font-style: oblique;
+  font-size: larger;
+  color: azure;
+}
+
 .sociallinks {
   display: flex;
   padding-top: 20px;

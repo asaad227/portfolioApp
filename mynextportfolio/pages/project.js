@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
+import myData from "../lib/files"
 import Image from "next/image";
-import styles from "/styles/project.module.css"
+import styles from "/styles/project.module.css";
 import Nav from "/src/Component2/Nav/navbar";
 import simpleAll from "/src/assets/Gif/Final-project/simpleAll.gif";
 import Pigeon1 from "/src/assets/Gif/Pigeon-blogs/Pigeon-blog-p1.gif";
@@ -13,7 +14,11 @@ import AsianRecipeResponsive from '/src/assets/Gif/Asian-recipe/Asian Recipe.gif
 import ECommerce from '/src/assets/Gif/E-commerce-site/E-commerce.gif';
 import EcommerceResponsive from '/src/assets/Gif/E-commerce-site/E-commerce-site.gif';
 import Link from "next/link";
+
 export default function Project() {
+  const [data, setData] = useState(myData);
+
+ console.log(data)
   return (
     <div className="project">
       <header>
@@ -24,8 +29,6 @@ export default function Project() {
         </Link>
         <Link href="https://github.com/asaad227">
         <i className="fa fa-github"> </i>
- 
-
         </Link>
         <Link href="https://twitter.com/a_saad227">
         <i className="fa fa-twitter"> </i>
@@ -41,6 +44,15 @@ export default function Project() {
         </Link>
       </div>
       </header>
+      {data.map(e=>{
+        return(<div className={styles.flexbox}>
+          <Link href={e.url}>
+           <h4 className={styles.title}>{e.name}</h4>
+          </Link>
+      
+          <Image className={styles.imageDesign}  width={495} height={350} src={e.project} alt={e.name}/>
+        </div>)
+      })}
       <div className={styles.flexcontainer}>
         <div className={styles.flexbox}>
           <Link href="https://simple-app2.netlify.app/">
@@ -49,7 +61,7 @@ export default function Project() {
           <p>Full stack react app with CRUD functionality. 
           Frontend react.js and backend using PostgreSQL. 
           Features such as darkmode, i18n translator, hide & show component, progressive graph </p>
-          <Image className={styles.imageDesign}  src={simpleAll} alt="Simple App" loading="lazy" />
+          <Image  className={styles.imageDesign}  src={simpleAll} alt="Simple App" loading="lazy" />
         </div>
         <div className={styles.flexbox}>
           <Link href="https://pokemon-q.vercel.app/">
