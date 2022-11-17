@@ -30,7 +30,7 @@ import Nav from "../src/Component2/Nav/navbar";
 import Link from "next/link";
 
 
-export default function AboutMe() {
+export default function Aboutme() {
   return (
     <div >
       <Nav />
