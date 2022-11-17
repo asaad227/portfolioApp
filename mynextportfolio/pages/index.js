@@ -49,7 +49,7 @@ function Main() {
               Project
             </li>
           </Link>
-          <Link  className={styles.linklink} href="/aboutme">
+          <Link  className={styles.linklink} href="/aboutMe">
             <li className={styles.linklist}>
              About Me
             </li>

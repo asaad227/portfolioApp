@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../../../styles/Navbar.module.css"
+import styles from "../../../styles/navbar.module.css"
 import Link from 'next/link';
 
 
@@ -25,7 +25,7 @@ export default function Nav() {
             <Link href="/project">
             <li className={styles.linklist}>Project</li>
             </Link>
-            <Link  href="/aboutme">
+            <Link  href="/aboutMe">
             <li className={styles.linklist}>About Me</li>
             </Link>
             <Link href="/resume">
