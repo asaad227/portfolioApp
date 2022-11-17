@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../styles/Project.module.css"
+import styles from "../styles/project.module.css"
 import Nav from "../src/Component2/Nav/navbar";
 import simpleAll from "../src/assets/Gif/Final-project/simpleAll.gif";
 import Pigeon1 from "../src/assets/Gif/Pigeon-blogs/Pigeon-blog-p1.gif";

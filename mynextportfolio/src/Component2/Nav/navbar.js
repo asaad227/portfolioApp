@@ -25,7 +25,7 @@ export default function Nav() {
             <Link href="/project">
             <li className={styles.linklist}>Project</li>
             </Link>
-            <Link  href="/aboutMe">
+            <Link  href="/aboutme">
             <li className={styles.linklist}>About Me</li>
             </Link>
             <Link href="/resume">

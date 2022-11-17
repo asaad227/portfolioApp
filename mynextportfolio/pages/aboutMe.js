@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import pic from "../src/assets/Images/ahammedSaad_profile_pic.jpeg";
-import styles from "../styles/AboutMe.module.css"
+import styles from "../styles/aboutme.module.css"
 import Auth0 from "../src/assets/Icons/auth0.png";
 import Typescript from "../src/assets/Icons/Typescript_logo_2020.svg.png";
 import ReactTesting from "../src/assets/Icons/react testing library.png";

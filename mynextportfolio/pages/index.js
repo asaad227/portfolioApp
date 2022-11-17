@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../styles/Home.module.css"
+import styles from "../styles/home.module.css"
 import logo from "../src/assets/Images/ahammedSaad.png";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
@@ -49,7 +49,7 @@ function Main() {
               Project
             </li>
           </Link>
-          <Link  className={styles.linklink} href="/aboutMe">
+          <Link  className={styles.linklink} href="/aboutme">
             <li className={styles.linklist}>
              About Me
             </li>
