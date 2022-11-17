@@ -1,17 +1,17 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../styles/project.module.css"
-import Nav from "../src/Component2/Nav/navbar";
-import simpleAll from "../src/assets/Gif/Final-project/simpleAll.gif";
-import Pigeon1 from "../src/assets/Gif/Pigeon-blogs/Pigeon-blog-p1.gif";
-import poetry from "../src/assets/Gif/poetry_finder.gif";
-import Bootcampers1 from "../src/assets/Gif/BootcampersSocial/bootcampersSocial-1.gif";
-import Bootcampers2 from "../src/assets/Gif/BootcampersSocial/bootcampersSocial-2.gif";
-import PokemonQ from '../src/assets/Gif/Pokemon-q.gif'
-import AsianRecipe from '../src/assets/Gif/Asian-recipe/Asian-recipe-app.gif';
-import AsianRecipeResponsive from '../src/assets/Gif/Asian-recipe/Asian Recipe.gif';
-import ECommerce from '../src/assets/Gif/E-commerce-site/E-commerce.gif';
-import EcommerceResponsive from '../src/assets/Gif/E-commerce-site/E-commerce-site.gif';
+import styles from "/styles/project.module.css"
+import Nav from "/src/Component2/Nav/navbar";
+import simpleAll from "/src/assets/Gif/Final-project/simpleAll.gif";
+import Pigeon1 from "/src/assets/Gif/Pigeon-blogs/Pigeon-blog-p1.gif";
+import poetry from "/src/assets/Gif/poetry_finder.gif";
+import Bootcampers1 from "/src/assets/Gif/BootcampersSocial/bootcampersSocial-1.gif";
+import Bootcampers2 from "/src/assets/Gif/BootcampersSocial/bootcampersSocial-2.gif";
+import PokemonQ from '/src/assets/Gif/Pokemon-q.gif'
+import AsianRecipe from '/src/assets/Gif/Asian-recipe/Asian-recipe-app.gif';
+import AsianRecipeResponsive from '/src/assets/Gif/Asian-recipe/Asian Recipe.gif';
+import ECommerce from '/src/assets/Gif/E-commerce-site/E-commerce.gif';
+import EcommerceResponsive from '/src/assets/Gif/E-commerce-site/E-commerce-site.gif';
 import Link from "next/link";
 export default function Project() {
   return (

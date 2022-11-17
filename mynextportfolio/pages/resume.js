@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image';
-import Nav from '../src/Component2/Nav/navbar';
-import styles from "../styles/resume.module.css"
-import aSaadResume from "../src/assets/Images/ahammedSaadCv.png";
-import aSaadResume2 from "../src/assets/Images/ahammedSaadCvPart2.png";
+import Nav from '/src/Component2/Nav/navbar';
+import styles from "/styles/resume.module.css"
+import aSaadResume from "/src/assets/Images/ahammedSaadCv.png";
+import aSaadResume2 from "/src/assets/Images/ahammedSaadCvPart2.png";
 import Link from 'next/link';
 
 function Resume(){
