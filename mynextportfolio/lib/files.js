@@ -17,8 +17,14 @@ const myData =[{
     id:3,
     name:"Bootcamper App",
     url:"https://bootcampers-social.netlify.app/",
-    project:"https://i.ibb.co/zX3g6fh/bootcampers-Social-1.gif",
-    part:"https://i.ibb.co/XVqqSnf/bootcampers-Social-2.gif"
+    project:"https://github.com/asaad227/portfolioApp/blob/main/mynextportfolio/src/assets/Gif/BootcampersSocial/bootcampersSocial-1.gif?raw=true",
+    part:"https://github.com/asaad227/portfolioApp/blob/main/mynextportfolio/src/assets/Gif/BootcampersSocial/bootcampersSocial-2.gif?raw=true"
+},
+{
+    id:4,
+    name:"PokemonQ",
+    url:"https://pokemon-q.vercel.app/",
+    project:"https://github.com/asaad227/portfolioApp/blob/main/mynextportfolio/src/assets/Gif/Pokemon-q.gif?raw=true"
 }]
 
 

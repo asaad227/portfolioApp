@@ -5,7 +5,11 @@ module.exports = {
       {
         protocol: 'https',
         hostname: 'i.ibb.co'
-      },
+      },{
+        protocol: 'https',
+        hostname: 'github.com',
+        pathname: '/asaad227/**'
+      }
     ],
   },
 }
