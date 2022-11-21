@@ -31,11 +31,15 @@ const myData =[{
     id:5,
     name:"E-commerce",
     url:"https://e-commerce-site-delta.vercel.app/",
-    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/E-commerce-site/E-commerce-site.gif",
-    part:"https://raw.githubusercontent.com/asaad227/portfolioApp/75a1f8adffe2f118df234604ee289cb083719af1/mynextportfolio/src/assets/Gif/E-commerce-site/E-commerce.gif",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/E-commerce-site/E-commerce-site.gif?raw=true",
+    part:"https://raw.githubusercontent.com/asaad227/portfolioApp/75a1f8adffe2f118df234604ee289cb083719af1/mynextportfolio/src/assets/Gif/E-commerce-site/E-commerce.gif?raw=true",
     text:"Fetch Api and JavaScript DOM manipulation to dynamically access and update the content, structure and style of the document."
 },{
-
+    id:6,
+    name:"My pigeon blogs",
+    url:"https://my-pigeon-blogs.vercel.app/",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/Pigeon-blogs/Pigeon-blog-p1.gif?raw=true",
+    text:"Simple Next.js app using dummy data to making blog post."
 }]
 
 

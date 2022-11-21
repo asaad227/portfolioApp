@@ -4,6 +4,8 @@ import Image from "next/image";
 import styles from "/styles/project.module.css";
 import Nav from "/src/Component2/Nav/navbar";
 
+
+
 import Link from "next/link";
 
 export default function Project() {
@@ -11,7 +13,7 @@ export default function Project() {
 
  console.log(data)
   return (
-    <div className="project">
+    <div>
       <header>
         <Nav />
         <div className={styles.sociallinks}>
@@ -35,17 +37,23 @@ export default function Project() {
         </Link>
       </div>
       </header>
+      
+  
+      <div className={styles.project}>
       {data.map(e=>{
         return(<div className={styles.flexbox}>
           <Link href={e.url}>
            <h4 className={styles.title}>{e.name}</h4>
           </Link>
-      
+          <p className={styles.para}>{e.text}</p>
           <Image className={styles.imageDesign}  width={495} height={350} src={e.project} alt={e.name}/>
         </div>)
-      })}
-      
         
+      })}
+      </div>
+
+      
+     
       </div>
    
   );
