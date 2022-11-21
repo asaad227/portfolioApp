@@ -4,7 +4,8 @@ const myData =[{
     name:"Simple App",
     url:"https://simple-app2.netlify.app/",
     project:"https://i.ibb.co/Hx7ZLDB/simple-all.gif",
-    part:"https://i.ibb.co/kDXnGfs/secondpart.gif"
+    part:"https://i.ibb.co/kDXnGfs/secondpart.gif",
+    text:"Full stack react app with CRUD functionality.Frontend react.js and backend using PostgreSQL.Features such as darkmode, i18n translator, hide & show component, progressive graph"
 },
 {
     id:2,
@@ -24,7 +25,17 @@ const myData =[{
     id:4,
     name:"PokemonQ",
     url:"https://pokemon-q.vercel.app/",
-    project:"https://github.com/asaad227/portfolioApp/blob/main/mynextportfolio/src/assets/Gif/Pokemon-q.gif?raw=true"
+    project:"https://github.com/asaad227/portfolioApp/blob/main/mynextportfolio/src/assets/Gif/Pokemon-q.gif?raw=true",
+    text:"Fetch Api and JavaScript DOM manipulation to dynamically access and update the content, structure and style of the document."
+},{
+    id:5,
+    name:"E-commerce",
+    url:"https://e-commerce-site-delta.vercel.app/",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/E-commerce-site/E-commerce-site.gif",
+    part:"https://raw.githubusercontent.com/asaad227/portfolioApp/75a1f8adffe2f118df234604ee289cb083719af1/mynextportfolio/src/assets/Gif/E-commerce-site/E-commerce.gif",
+    text:"Fetch Api and JavaScript DOM manipulation to dynamically access and update the content, structure and style of the document."
+},{
+
 }]
 
 
