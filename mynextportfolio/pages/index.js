@@ -46,17 +46,17 @@ function Main() {
         <div className={styles.navhome}>
           <Link className={styles.linklink} href="/project">
             <li className={styles.linklist}>
-              Project
+            <i className= "fa fa-page">Poject</i>
             </li>
           </Link>
           <Link  className={styles.linklink} href="/aboutMe">
             <li className={styles.linklist}>
-             About Me
+             <i className= "fa fa-about">About Me</i>
             </li>
           </Link>
-          <Link className={styles.linklink} href="/resume">
+          <Link className={styles.linklink} href="https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/PDF/Ahammed_Saad_CV.pdf?raw=true" download="Ahammed_Saad_CV.pdf">
             <li className={styles.linklist}>
-              Resume
+              <i className="fa fa-download">CV</i>
             </li>
           </Link>
         </div>

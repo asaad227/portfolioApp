@@ -28,13 +28,13 @@ export default function Nav() {
             <Link  href="/aboutMe">
             <i>About Me</i>
             </Link>
-            <Link href="/resume">
-            <i className="fa fa-page">Resume</i>
+            <Link href="https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/PDF/Ahammed_Saad_CV.pdf?raw=true">
+            <i className="fa fa-download">CV</i>
             </Link>
    
     </div>
     <buthrefn className={styles.openbtn} onClick={openNav}>
-    <i className='fa'>☰</i></buthrefn>  
+    <i className='fa fa-menu'>☰</i></buthrefn>  
 
     </div>
   )

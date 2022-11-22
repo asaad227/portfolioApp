@@ -2,10 +2,11 @@
 
 
 :root{
-  --bg-image: url("../src/assets/Images/tech-back.jpg");
+ 
+  /* --bg-image: url("../src/assets/Images/tech-back.jpg"); */
  /* --bg-image: url("../src/assets/Gif/bganimation.gif"); */
  /* --bg-image: url("../src/assets/Gif/smokey_background.gif"); */
- --bg-white: url("../src/assets/Images/white-bg.jpg");
+ /* --bg-white: url("../src/assets/Images/white-bg.jpg"); */
   --text-color : azure;
   --bg-color: #111; 
   
@@ -18,7 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-color);
-  background-image:var(--bg-image) ;
+  background-image:url(../src/assets/Images/smokey-bg.png) ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

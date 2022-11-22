@@ -7,7 +7,7 @@
   height: auto;
   top: 0;
   right: 0;
-  background-image: url("../src/assets/Images/tech-back.jpg");
+  background-image: url(../src/assets//Images/smokey-bg.png);;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,7 +43,7 @@
   float: right;
   font-size: 16px;
   cursor: pointer;
-  background-image: url("../src/assets/Images/tech-back.jpg");
+  background-image: url(../src/assets//Images/smokey-bg.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

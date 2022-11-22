@@ -32,7 +32,7 @@
 .card {
   padding: 1.5rem;
   text-align: left;
-  background-image: url("../src/assets/Gif/smokey_background.gif");
+  /* background-image: url("../src/assets/Gif/smokey_background.gif"); */
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
