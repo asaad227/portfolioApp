@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Router({pageLink, text, iconName}) {
   return (
     <div >
-    <Link className={styles.linklink} href={pageLink}>
+    <Link className={styles.linkItem} href={pageLink}>
       <li className={styles.linklist}>
       <i className={iconName}>{text}</i>
       </li>

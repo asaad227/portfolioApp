@@ -8,7 +8,7 @@ export default function ProjectDisplay({data}) {
     <div className={styles.project}>
       {data.map(e=>{
         return(<div className={styles.flexbox}>
-          <Link href={e.url}>
+          <Link className={styles.linkItem} href={e.url}>
            <h4 className={styles.title}>{e.name}</h4>
           </Link>
           <p className={styles.para}>{e.text}</p>

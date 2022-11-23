@@ -27,7 +27,7 @@ import Chart from "/src/assets/Icons/Chartjs.png";
 import Heroku from "/src/assets/Icons/heroku-original-wordmark.svg";
 import { TypeAnimation } from "react-type-animation";
 import Nav from "/src/Components/Nav/navbar";
-import Link from "next/link";
+import Footer from "../src/Components/footer";
 
 
 export default function AboutMe() {
@@ -85,9 +85,7 @@ export default function AboutMe() {
           />
     
      
-      <Link className={styles.gitstate}
-        href="https://github-readme-stats.vercel.app/api?username=asaad227&show_icons=true&hide_border=false&title_color=ff652f&icon_color=FFE400&bg_color=09131B&text_color=ffffff&border_color=0c1a25"
-       >GitStats</Link>
+      <Image width={500} height={200} src="https://github-readme-stats.vercel.app/api?username=asaad227&show_icons=true&hide_border=false&title_color=ff652f&icon_color=FFE400" alt="git State"/>
 
       <h4 className={styles.type}>Tech Stack ____________________ </h4>
 

@@ -9,6 +9,9 @@ module.exports = {
         protocol: 'https',
         hostname: 'github.com',
         pathname: '/asaad227/**'
+      },{
+        protocol: 'https',
+        hostname:"github-readme-stats.vercel.app"
       }
     ],
   },

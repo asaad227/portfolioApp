@@ -19,17 +19,17 @@ export default function Nav() {
 <Link href='#' className={styles.closebtn} onClick={closeNav}>
 <i className="fa fa-caret">X</i></Link>
        
-        <Link href="/">
-            <i className="fa fa-home"></i>
+        <Link className={styles.linkItem} href="/">
+            <i className="fa fa-home">  Home</i>
             </Link>
-            <Link href="/project">
-            <i className="fa fa-folder"> Projects</i>
+            <Link className={styles.linkItem} href="/project">
+            <i className="fa fa-folder">  Projects</i>
             </Link>
-            <Link  href="/aboutMe">
-            <i>About Me</i>
+            <Link className={styles.linkItem}  href="/aboutMe">
+            <i className='fa fa-user'>  About Me</i>
             </Link>
-            <Link href="https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/PDF/Ahammed_Saad_CV.pdf?raw=true">
-            <i className="fa fa-download">CV</i>
+            <Link className={styles.linkItem} href="https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/PDF/Ahammed_Saad_CV.pdf?raw=true">
+            <i className="fa fa-download">  CV</i>
             </Link>
    
     </div>

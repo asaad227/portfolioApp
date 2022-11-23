@@ -3,7 +3,7 @@ const myData =[{
     id:1,
     name:"Simple App",
     url:"https://simple-app2.netlify.app/",
-    project:"https://i.ibb.co/Hx7ZLDB/simple-all.gif",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/Final-project/simpleAll.gif?raw=true",
     part:"https://i.ibb.co/kDXnGfs/secondpart.gif",
     text:"Full stack react app with CRUD functionality.Frontend react.js and backend using PostgreSQL.Features such as darkmode, i18n translator, hide & show component, progressive graph"
 },
@@ -11,7 +11,7 @@ const myData =[{
     id:2,
     name:"Asian Recipe",
     url:"https://asian-recipe.vercel.app/",
-    project:"https://i.ibb.co/2qGKsvB/Asian-Recipe.gif",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/Asian-recipe/Asian-recipe-app.gif?raw=true",
     part:"https://i.ibb.co/zSds7X9/Asian-recipe-app.gif"
 },
 {
@@ -40,6 +40,19 @@ const myData =[{
     url:"https://my-pigeon-blogs.vercel.app/",
     project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/Pigeon-blogs/Pigeon-blog-p1.gif?raw=true",
     text:"Simple Next.js app using dummy data to making blog post."
+},
+{
+    id:7,
+    name:"Random Password Maker",
+    url:"https://randompassword-asaad227.vercel.app/",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/RandomPassword/randomPassword.gif?raw=true",
+    text:"Lets make your random password of your choice."
+},{
+    id:8,
+    name:"Card Game",
+    url:"https://cardgame-theta.vercel.app/",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/CardGame/cardGame.gif?raw=true",
+    text:"Card game randomly selected card for player and computer and score counted."
 }]
 
 

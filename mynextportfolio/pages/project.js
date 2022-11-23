@@ -14,7 +14,6 @@ export default function Project() {
         <Nav />
         <Footer />
       </header>
-
       <ProjectDisplay data={data} />
     </div>
   );
