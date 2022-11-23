@@ -26,7 +26,7 @@ import Enzyme from "/src/assets/Icons/enzyme.png";
 import Chart from "/src/assets/Icons/Chartjs.png";
 import Heroku from "/src/assets/Icons/heroku-original-wordmark.svg";
 import { TypeAnimation } from "react-type-animation";
-import Nav from "/src/Component2/Nav/navbar";
+import Nav from "/src/Components/Nav/navbar";
 import Link from "next/link";
 
 
@@ -34,28 +34,7 @@ export default function AboutMe() {
   return (
     <div >
       <Nav />
-      <div className={styles.sociallinks}>
-        <Link href="https://www.linkedin.com/in/ahammed-saad-5341b3231/">
-        <i className="fa fa-linkedin"> </i>
-        </Link>
-        <Link href="https://github.com/asaad227">
-        <i className="fa fa-github"> </i>
- 
-
-        </Link>
-        <Link href="https://twitter.com/a_saad227">
-        <i className="fa fa-twitter"> </i>
- 
-        </Link>
-        <Link href="mailto:a.saad227@gmail.com? subject=subject text">
-        <i className="fa fa-google"> </i>
-       
-        </Link>
-        <Link href="mailto:a.saad227@yahoo.com? subject=subject text">
-        <i className="fa fa-yahoo"> </i>
-          
-        </Link>
-      </div>
+     
       <div className={styles.about}>
       <Image className={styles.card} src={pic} alt="Ahammed Saad" />
       <TypeAnimation className={styles.type} cursor={false} sequence={["Ahammed Saad", 2000]} wrapper='h2' />
@@ -142,6 +121,7 @@ export default function AboutMe() {
       <Image className={styles.imageicons} src={Slack} alt="Slack" loading="lazy"/>
       <Image className={styles.imageicons} src={vsCode} alt="vscode" loading="lazy"/>
     </div>
+    <Footer/>
     </div>
   );
 }
