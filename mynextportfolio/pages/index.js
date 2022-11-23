@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "/styles/home.module.css";
-import logo from "../src/assets/Images/ahammedSaad_profile_pic.jpeg";
+import logo from "../src/assets/Gif/logo.gif";
 import { TypeAnimation } from "react-type-animation";
 import Footer from "../src/Components/footer";
 import Router from "../src/Components/router";
